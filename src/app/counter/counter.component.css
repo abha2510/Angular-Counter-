@@ -1,0 +1,32 @@
+.counter{
+  margin: auto;
+  width: 12%;
+  border: 2px dotted black;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+}
+button+button{
+    margin-left: 10px;
+}
+.count{
+    color: rgb(72, 101, 218);
+}
+button:nth-child(2):hover{
+    background-color: rgb(30, 210, 63);
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+button:nth-child(3):hover{
+    background-color: rgb(223, 20, 20);
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
